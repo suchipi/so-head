@@ -22,7 +22,7 @@ export default function Root() {
       whiteboardHeader.rootComponent.label.size.y +
       whiteboardHeader.rootComponent.verticalPadding;
 
-    const whiteboardSize = new Vector(200, 200);
+    const whiteboardSize = new Vector(600, 600);
 
     const whiteboard = useChild(() => Whiteboard(whiteboardSize));
     whiteboard.rootComponent.geometry.position.mutateInto(
